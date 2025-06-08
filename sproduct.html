@@ -37,21 +37,21 @@
         <div class="singal-pro-image">
             <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
             <div class="small-img-group">
-                <div class="small-img-col">
-                    <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+                <div class="small-img-col" >
+                    <img src="img/products/f1.jpg" width="100%" class="small-img"  alt="">
                 </div>
-                 <div class="small-img-col">
-                    <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+                 <div class="small-img-col" >
+                    <img src="img/products/f2.jpg" width="100%" class="small-img"  alt="">
                 </div>
-                 <div class="small-img-col">
-                    <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+                 <div class="small-img-col" >
+                    <img src="img/products/f3.jpg" width="100%" class="small-img"  alt="">
                 </div>
-                 <div class="small-img-col">
-                    <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+                 <div class="small-img-col" >
+                    <img src="img/products/f4.jpg" width="100%" class="small-img"  alt="">
                 </div>
-                 <div class="small-img-col">
+                 <!-- <div class="small-img-col">
                     <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="singal-pro-detial">
@@ -72,6 +72,68 @@
                 T-Shirt. Made from 100% premium cotton, this t-shirt is soft, breathable, 
                 and gentle on the skin — perfect for casual wear, layering, or custom printing. 
                 With a relaxed fit and reinforced stitching, it's designed to last through countless wears and washes.</p>
+        </div>
+    </section>
+        <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$85</h4>
+                </div>
+            <a href="#"><i class="fa-duotone fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$85</h4>
+                </div>
+            <a href="#"><i class="fa-duotone fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$85</h4>
+                </div>
+            <a href="#"><i class="fa-duotone fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$85</h4>
+                </div>
+            <a href="#"><i class="fa-duotone fa-solid fa-cart-shopping cart"></i></a>
+            </div>
         </div>
     </section>
     <section id="newletter" class="section-p1">
@@ -129,6 +191,24 @@
             <p>2025 | HTML CSS with JavaScript</p>
         </div>
     </footer>
+    <script>
+        var MainImg = document.getElementById('MainImg');
+        var smallimg =document.getElementsByClassName('small-img');
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
