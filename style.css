@@ -613,8 +613,8 @@ footer .comyright{
 #blog .blog-details a:hover::after{
     color: #088178;
 }
+/* Blog */
 
-/* Contact Page */
 
 /* Start Media Query */
 @media (max-width:799px){
@@ -771,4 +771,24 @@ footer .comyright{
     #prodetail .singal-pro-detial{
         width: 100%;
     }
+    
+/* Contact Page */
+    #blog{
+        padding: 20px 20px 0 20px;
+    }
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #blog .blog-image {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    #blog .blog-details{
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
 }
